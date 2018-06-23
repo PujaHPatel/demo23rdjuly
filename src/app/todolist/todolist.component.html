@@ -1,0 +1,6 @@
+<p>
+  <li *ngFor="let item of list let i=index">
+    <input type="checkbox" (change)="onValuechange(i)"/>
+    {{ item.name }}
+  </li>
+</p>
